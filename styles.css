@@ -4,10 +4,15 @@ body {
   margin: 50px auto;
 }
 
+#userBoard {
+  background: rgb(249, 250, 249);
+  margin-top: 5rem;
+}
+
 .boardCell {
   display: inline-block;
-  width: 49px;
-  padding: 1em;
+  width: calc(600px / 8);
+  padding: 1rem;
   margin: 5px;
   border: 1px solid rgb(236, 229, 229);
   text-align: center;
@@ -19,8 +24,18 @@ body {
 }
 
 #pickANumber {
-  margin-top: 20px;
-  width: 50%;
+  margin-top: 1rem;
+  width: 40%;
+  padding: 1em;
+  font-size: 24px;
+  background: lightsalmon;
+  cursor: pointer;
+}
+
+#resetBtn {
+  margin-top: 1rem;
+  margin-left: 7.4rem;
+  width: 40%;
   padding: 1em;
   font-size: 24px;
   background: lightsalmon;
